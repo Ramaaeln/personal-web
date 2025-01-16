@@ -1,3 +1,5 @@
+import ListStyle from "../List";
+
 const Activity = () =>{
     return(
     <div>
@@ -246,7 +248,9 @@ const Activity = () =>{
 
         <div className="">
             <button className="bg-gray-700 p-1 rounded">
-                <a href="" className="block text-sm">Show More</a>
+                <ListStyle className="block text-sm" href="/activity">
+                Show More
+                </ListStyle>
             </button>
         </div>
       </div>

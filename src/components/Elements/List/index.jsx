@@ -5,7 +5,7 @@ const ListStyle = (props) =>{
     return(
         <li className={`${classname} list-none `}>
           <Link to={href} target={target}>
-             <i className={`${className} mr-2`}></i>
+             <i className={`${className} `}></i>
              {children}</Link>
         </li>
     )

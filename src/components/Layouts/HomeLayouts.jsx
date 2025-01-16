@@ -46,7 +46,9 @@ const HomeLayouts = () =>{
                     </div>
                     <div className="flex justify-center mt-5">
                         <button className="p-2 rounded bg-gray-700">
-                            <small><a href="" className="block">Show More</a></small>
+                            <ListStyle href="/skills" classname="text-sm block"> 
+                                Show More
+                            </ListStyle>
                         </button>
                     </div>
                 </div>
