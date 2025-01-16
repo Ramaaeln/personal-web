@@ -1,0 +1,9 @@
+<!-- REMIXICON -->
+    <!-- SKILLS -->
+    text-sky-500 ri-reactjs-line =>REACTJS
+    text-gray-300 ri-database-2-line =>DATABASE
+    text-orange-500 ri-html5-line =>HTML
+    text-blue-400 ri-css3-line =>CSS
+    text-green-600 ri-nodejs-line =>NODEJS
+    text-purple-500 ri-php-line =>PHP
+    text-yellow-400 ri-javascript-line =>JS
