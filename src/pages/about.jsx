@@ -9,7 +9,7 @@ const AboutPage = () =>{
             className="flex mx-96  
             justify-center   mt-20">
                 <ImageURL
-                src="../../src/assets/me.jpg"
+                src="../../src/assets/me.JPG"
                 className="w-64 rounded-xl"
                 />
 
