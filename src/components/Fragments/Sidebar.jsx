@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ImageURL from "../Elements/Image";
 import ListStyle from "../Elements/List";
 
@@ -19,9 +20,9 @@ const Sidebar = () =>{
         
         <div className="flex justify-center mt-2">
         <button className="p-1 rounded bg-gray-900 w-full">
-            <a href=""
+            <Link to="/about"
             className="block"
-            >Show More</a>
+            >Show More</Link>
         </button>
         </div>
 
@@ -31,12 +32,13 @@ const Sidebar = () =>{
             <small>Linkendin </small>
         </ListStyle>
         <ListStyle 
-        href="https://github.com/Ramaaeln" 
+        href="https://github.com/Ramaaeln" target="_blank"
         className="ri-links-line ">
             <small>GitHub </small>
         </ListStyle>
         <ListStyle 
-        href="https://www.instagram.com/ramdneln/profilecard/?igsh=ajMzaW0yeWxvZ3Bx" 
+        target="_blank"
+        href="https://www.instagram.com/ramdneln/" 
         className="ri-links-line ">
             <small>Instagram </small>
         </ListStyle>

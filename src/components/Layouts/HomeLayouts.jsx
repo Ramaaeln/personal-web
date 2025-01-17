@@ -6,6 +6,7 @@ import ListStyle from "../Elements/List";
 import Projects from "../Fragments/Projects";
 import GitHubCalendar from 'react-github-calendar';
 import Sidebar from "../Fragments/Sidebar";
+import SkillsEle from "../Elements/Skills";
 
 
 const HomeLayouts = () =>{
@@ -22,37 +23,7 @@ const HomeLayouts = () =>{
                 
             </div>
         </div>
-            <div className="mt-7">
-                <span>Skills</span>
-                <div className="w-full ">
-                    <div className="grid grid-cols-4 justify-items-center content-center">
-                        <div className="flex items-center">
-                            <i className="text-xl text-sky-500 ri-reactjs-line"></i>
-                            <small>ReactJS</small>
-                        </div>
-                        <div className="flex items-center">
-                            <i className="text-xl text-gray-300 ri-database-2-line"></i>
-                            <small>Postgress</small>
-                    </div>
-                        <div className="flex items-center">
-                            <i className="text-xl text-orange-500 ri-html5-line"></i>
-                            <small>HTML</small>
-                    </div>
-                        <div className="flex items-center">
-                            <i className="text-xl text-blue-400 ri-css3-line"></i>
-                            <small>CSS</small>
-                    </div>
-
-                    </div>
-                    <div className="flex justify-center mt-5">
-                        <button className="p-2 rounded bg-gray-700">
-                            <ListStyle href="/skills" classname="text-sm block"> 
-                                Show More
-                            </ListStyle>
-                        </button>
-                    </div>
-                </div>
-            </div>
+          <SkillsEle/>
         <div className="mt-7">
         <GitHubCalendar username="Ramaaeln" />
         </div>

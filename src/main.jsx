@@ -8,11 +8,16 @@ import HomePage from './pages/home.jsx'
 import ProjectPage from './pages/projects.jsx'
 import SkillsPage from './pages/skills.jsx';
 import ComingSoonPage from './pages/comingsoon.jsx';
+import ActicityPage from './pages/activity.jsx';
+import AboutPage from './pages/about.jsx';
+import CertificatePage from './pages/certificate.jsx';
+import ContactPage from './pages/contact.jsx';
 
 const router = createBrowserRouter([
   {
     path:"/",
     element:<HomePage/>,
+    errorElement:<ComingSoonPage/>
   },
   {
     path:"/projects",
@@ -24,19 +29,19 @@ const router = createBrowserRouter([
   },
   {
     path:"/activity",
-    element:<ComingSoonPage/>,
+    element:<ActicityPage/>,
   },
   {
     path:"/certificate",
-    element:<ComingSoonPage/>,
+    element:<CertificatePage/>,
   },
   {
     path:"/about",
-    element:<ComingSoonPage/>,
+    element:<AboutPage/>,
   },
   {
     path:"/contact",
-    element:<ComingSoonPage/>,
+    element:<ContactPage/>,
   },
 
 ])

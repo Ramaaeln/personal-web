@@ -6,6 +6,7 @@ const dataprojects = [
         nama:'waroeng-dul',
         link:'https://waroeng-dul.vercel.app/',
         status:'public',
+        target:'_blank',
 
         react:'React JS',
         classreact:'text-sky-500 ri-reactjs-line',
@@ -16,7 +17,7 @@ const dataprojects = [
     },
     {
         nama:'personal-web',
-        link:'',
+        link:'/comingsoon',
         status:'coming soon',
         
         react:'React JS',
@@ -24,7 +25,7 @@ const dataprojects = [
     },
     {
         nama:'bookshelf',
-        link:'',
+        link:'/comingsoon',
         status:'coming soon',
         
         php:'PHP',
@@ -35,7 +36,7 @@ const dataprojects = [
     },
     {
         nama:'notesyou',
-        link:'',
+        link:'/comingsoon',
         status:'coming soon',
         react:'React JS',
         classreact:'text-sky-500 ri-reactjs-line',
@@ -50,7 +51,7 @@ const Projects = () =>{
         <div key={index} className="border p-3 rounded border-slate-700 shadow mt-3 ">
             <DokumProject 
                 href={data.link}
-                target="_blank"
+                target={data.target}
                 nama={data.nama}
                 status={data.status} />
         <div className="flex items-center gap-1 mt-2">

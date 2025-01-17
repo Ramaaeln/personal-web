@@ -9,7 +9,7 @@ const ComingSoonPage = () =>{
     <p className="text-white text-lg mb-8">
         We're working hard to bring you something amazing. Stay tuned!
     </p>
-        <Link to="/" className="text-white border p-4 rounded">Back To On Page</Link>
+        <Link to="/" className="text-white border p-4 rounded">Back To Home</Link>
 </div>
     )
 }
