@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import ImageURL from "../components/Elements/Image";
-import Sidebar from "../components/Fragments/Sidebar";
 import HeaderLayouts from "../components/Layouts/HeaderLayouts";
 
 const AboutPage = () =>{
@@ -11,9 +9,10 @@ const AboutPage = () =>{
             className="flex mx-96  
             justify-center   mt-20">
                 <ImageURL
-                src="../../src/assets/me.JPG"
+                src="../../src/assets/me.jpg"
                 className="w-64 rounded-xl"
                 />
+
                 <p className="ml-7 text-justify p-3">
                 Hi, I`m 
                 <span className="text-yellow-300"> Abdullah Ramadan Elansary </span>  
