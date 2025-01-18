@@ -4,7 +4,7 @@ import meImage from '../assets/me.jpg'
 
 const AboutPage = () =>{
     return(
-        <div className="text-white bg-black h-screen pb-20
+        <div className="text-white bg-black h-screen pb-20 mb-20
         ">
             <HeaderLayouts/>
             
