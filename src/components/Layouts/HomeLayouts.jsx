@@ -10,9 +10,10 @@ const HomeLayouts = () =>{
         <div className="flex">
        <Sidebar/>
 
-        <div className="mt-7 ml-7 w-screen  
-        xl:ml-7 xl:w-3/5
-        md:mr-2 md:w-3/5 
+        <div className="mt-7 ml-20  w-9/12  
+        xl:ml-7 xl:w-3/5 
+        md:mr-2 md:w-3/5  md:mr-3 
+        sm:w-3/5 sm:mr-2 
         
         ">
         
@@ -21,7 +22,7 @@ const HomeLayouts = () =>{
             <div className="grid grid-cols-2  w-full p-2 gap-3
             xl:grid-cols-2 xl:w-full
             md:gap-2 md:w-full
-            sm:grid-cols-1 sm:gap-1 sm:w-full
+            sm:grid-cols-2 sm:gap-2 sm:w-full 
             ">
                 <Projects/>
                 

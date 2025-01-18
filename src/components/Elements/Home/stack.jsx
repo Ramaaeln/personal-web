@@ -3,7 +3,9 @@ const Stack = (props) =>{
     return(
         <>
             <i className={`text-xl  ${classname}`}></i>
-            <small >{stack}</small>
+            <small className="hidden
+            xl:block sm:hidden md:block
+            " >{stack}</small>
             </>
     )
 }
