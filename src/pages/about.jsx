@@ -1,15 +1,17 @@
 import ImageURL from "../components/Elements/Image";
 import HeaderLayouts from "../components/Layouts/HeaderLayouts";
+import meImage from '../assets/me.jpg'
 
 const AboutPage = () =>{
     return(
         <div className="text-white bg-black h-screen">
             <HeaderLayouts/>
+            
             <div 
             className="flex mx-96  
             justify-center   mt-20">
                 <ImageURL
-                src="../../src/assets/me.JPG"
+                src={meImage}
                 className="w-64 rounded-xl"
                 />
 
@@ -34,6 +36,7 @@ const AboutPage = () =>{
                 joining teams focused on web development technologies 🙌.
                 </p>
             </div>
+                
         </div>
     )
 }
