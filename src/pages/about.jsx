@@ -4,7 +4,7 @@ import meImage from '../assets/me.jpg'
 
 const AboutPage = () =>{
     return(
-        <div className="text-white bg-black h-screen pb-20 mb-20
+        <div className="text-white bg-black h-screen  
         ">
             <HeaderLayouts/>
             
@@ -24,7 +24,7 @@ const AboutPage = () =>{
                 "
                 />
 
-                <p className=" text-justify p-3 mx-10
+                <p className=" text-justify p-3 mx-10 pb-36
                 xl:mr-80
                 md:mx-12
                 sm:mx-10
