@@ -3,7 +3,9 @@ import ListStyle from "../Elements/List";
 
 const Navbar = ()=>{
     return(
-        <div className="flex gap-4 items-center mt-2 list-none ml-4 text-sm">
+        <div className="flex hidden gap-1 items-center mt-2 list-none ml-4 text-sm
+        xl:gap-4 xl:flex md:flex sm:flex
+        ">
           
         <ListStyle 
         href="/" 

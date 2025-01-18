@@ -5,22 +5,34 @@ const SkillsEle = () =>{
         <div className="mt-7">
         <span>Skills</span>
         <div className="w-full ">
-            <div className="grid grid-cols-4 justify-items-center content-center">
+            <div className="grid grid-cols-4 justify-items-center content-center
+            
+            ">
                 <div className="flex items-center">
                     <i className="text-xl text-orange-500 ri-html5-line"></i>
-                    <small>HTML</small>
+                    <small className="
+                    xl:block md:block sm:block hidden
+                    ">HTML</small>
             </div>
                 <div className="flex items-center">
                     <i className="text-xl text-blue-400 ri-css3-line"></i>
-                    <small>CSS</small>
+                    <small className="
+                    xl:block md:block sm:block hidden
+                    ">CSS</small>
             </div>
                 <div className="flex items-center">
                     <i className="text-xl text-sky-500 ri-reactjs-line"></i>
-                    <small>ReactJS</small>
+                    <small className="
+                    xl:block md:block sm:block hidden
+                    
+                    ">ReactJS</small>
                 </div>
                 <div className="flex items-center">
                     <i className="text-xl text-gray-300 ri-database-2-line"></i>
-                    <small>Postgress</small>
+                    <small className="
+                    xl:block md:block sm:block hidden
+                    
+                    ">Postgress</small>
             </div>
 
             </div>
