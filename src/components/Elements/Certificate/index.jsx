@@ -20,7 +20,11 @@ const datacertificate = [
 
 const CertificateEle = () => {
     return (
-        <div className="grid grid-cols-4 m-10 gap-4">
+        <div className="grid grid-cols-1 m-10 gap-4
+        xl:grid-cols-4 
+        md:grid-cols-3 
+        sm:grid-cols-2 
+        ">
             {datacertificate.map((data, index) => (
                 <div
                     key={index}
