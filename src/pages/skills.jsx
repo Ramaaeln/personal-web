@@ -50,15 +50,22 @@ const dataskills = [
 
 const SkillsPage = () =>{
     return(
-        <div className="bg-black text-white">
+        <div className="bg-black text-white h-full">
             <HeaderLayouts/>
             <div className="flex ">
             <Sidebar/>
-            <div className="ml-7 border w-3/5 h-1/2 p-20 rounded border-gray-800  mt-10">
+            <div className=" border w-fit mb-36 ml-5 mr-12 h-1/2 p-20 rounded border-gray-800  mt-10
+                 xl:mr-2 xl:ml-7 xl:w-3/5 xl:mb-56
+                 md:mr-7 md:ml-7 md:w-3/5 md:mb-56
+                 sm:mr-7 sm:ml-7 sm:w-3/5 sm:mb-56
+
+            ">
 
                 <div 
-                className="grid grid-cols-4   gap-20 justify-items-center
-                
+                className="grid grid-cols-3   gap-20 justify-items-center
+                xl:grid-cols-4
+                md:grid-cols-4
+                sm:grid-cols-3
                 "
                 >
 
