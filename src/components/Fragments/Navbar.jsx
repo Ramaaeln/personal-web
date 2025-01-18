@@ -3,17 +3,36 @@ import ListStyle from "../Elements/List";
 
 const Navbar = ()=>{
     return(
-        <div className="flex gap-10 items-center mt-1 list-none ml-4 text-sm">
-        <ListStyle href="/" className="ri-book-open-line ">
+        <div className="flex gap-4 items-center mt-2 list-none ml-4 text-sm">
+          
+        <ListStyle 
+        href="/" 
+        className="ri-book-open-line " 
+        classname="hover:bg-gray-900  hover:rounded p-1  " 
+        >
         Overview
         </ListStyle>
-        <ListStyle href="/projects" className="ri-archive-stack-line ">
+        
+        <ListStyle 
+        href="/projects" 
+        className="ri-archive-stack-line " 
+        classname="hover:bg-gray-900  hover:rounded p-1 " 
+        >
         Projects
         </ListStyle>
-        <ListStyle href="/skills" className="ri-stack-line ">
+
+        <ListStyle 
+        href="/skills" 
+        className="ri-stack-line"
+        classname="hover:bg-gray-900  hover:rounded  p-1  "
+        >
         Skills
         </ListStyle>
-        <ListStyle href="/activity" className="ri-global-line ">
+        <ListStyle 
+        href="/activity" 
+        className="ri-global-line "
+        classname="hover:bg-gray-900  hover:rounded  p-1  "
+        >
         Activity
         </ListStyle>
       </div>

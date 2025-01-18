@@ -1,8 +1,4 @@
 import Activity from "../Elements/Activity";
-import DokumProject from "../Elements/Home/project";
-import Stack from "../Elements/Home/stack";
-import ImageURL from "../Elements/Image";
-import ListStyle from "../Elements/List";
 import Projects from "../Fragments/Projects";
 import GitHubCalendar from 'react-github-calendar';
 import Sidebar from "../Fragments/Sidebar";
@@ -14,11 +10,19 @@ const HomeLayouts = () =>{
         <div className="flex">
        <Sidebar/>
 
-        <div className="mt-7 ml-7 w-3/5  ">
+        <div className="mt-7 ml-7 w-screen  
+        xl:ml-7 xl:w-3/5
+        md:mr-2 md:w-3/5 
+        
+        ">
         
         <div >
             <span>Documentation Project</span>
-            <div className="grid grid-cols-2  w-full p-2 gap-3">
+            <div className="grid grid-cols-2  w-full p-2 gap-3
+            xl:grid-cols-2 xl:w-full
+            md:gap-2 md:w-full
+            sm:grid-cols-1 sm:gap-1 sm:w-full
+            ">
                 <Projects/>
                 
             </div>

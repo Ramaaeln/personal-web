@@ -19,11 +19,9 @@ const AboutPage = () =>{
                 Hi, I`m 
                 <span className="text-yellow-300"> Abdullah Ramadan Elansary </span>  
                  u can call me <span className="text-yellow-300">Rama</span>, 
-                a four-semester Informatics Engineering 
-                student at Pamulang University with a focus on full-stack web development. 
-                I am proficient in using technologies like Node.js, 
-                React.js, Express.js, and TailwindCSS to build responsive 
-                and functional web applications.
+                 a fourth-semester Informatics Engineering student 
+                focusing on full-stack web development. I'm learning the React.js, Express.js, and TailwindCSS Frameworks and Tools
+                to build responsive and functional web applications.
                 <br /><br />
                 I am capable of working both independently and as part of a team.
                 I believe that good collaboration leads to more innovative and effective

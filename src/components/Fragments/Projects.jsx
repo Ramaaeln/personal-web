@@ -8,7 +8,7 @@ const dataprojects = [
         status:'public',
         target:'_blank',
 
-        react:'React JS',
+        react:'React JS ',
         classreact:'text-sky-500 ri-reactjs-line',
         db:'Postgres',
         classdb:'text-gray-300 ri-database-2-line',
@@ -48,13 +48,17 @@ const Projects = () =>{
     return(
         < >
         {dataprojects.map((data,index) =>(
-        <div key={index} className="border p-3 rounded border-slate-700 shadow mt-3 ">
+        <div key={index} className="border p-3 rounded border-slate-700 shadow mt-3 
+        sm:mt-1
+        ">
             <DokumProject 
                 href={data.link}
                 target={data.target}
                 nama={data.nama}
                 status={data.status} />
-        <div className="flex items-center gap-1 mt-2">
+        <div className="flex items-center  gap-1 mt-2
+        sm:mt-1
+        ">
             <Stack 
             classname={data.classnode}
             stack={data.node }/>
