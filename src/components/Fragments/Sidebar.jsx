@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 import ImageURL from "../Elements/Image";
 import ListStyle from "../Elements/List";
 
-const Sidebar = () =>{
+const Sidebar = ({className}) =>{
     return(
-        <div className="  mt-10 hidden text-white h-screen
+        <div className={`mt-10 hidden text-white h-screen
         xl:ml-32 xl:w-1/5 xl:block
          md:ml-12 md:w-4/12 md:block
          sm:ml-8 sm:w-6/12 sm:block
-        ">
+        ${className} `}>
         <ImageURL
         src="https://avatars.githubusercontent.com/u/148547135?v=4"
         className="rounded-full mb-7 "
