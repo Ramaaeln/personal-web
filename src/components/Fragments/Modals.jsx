@@ -33,7 +33,7 @@ function ModalComponent() {
   return (
     <div>
       <button
-        ref={buttonRef} // Menambahkan ref ke button
+        ref={buttonRef} 
         onClick={toggleModal}
         type="button"
       >
@@ -47,8 +47,12 @@ function ModalComponent() {
           className="fixed inset-0 z-50 flex"
         >
           <div
-            ref={modalRef} // Menambahkan ref ke modal
-            className="absolute p-4 w-1/4 inset-y-0 right-0 rounded-l-2xl bg-gray-950 border-l border-slate-700"
+            ref={modalRef} 
+            className="absolute p-4 w-2/3 inset-y-0 right-0 rounded-l-2xl bg-gray-950 border-l border-slate-700
+            xl:w-1/4 
+             md:w-2/5 
+             sm:w-72
+            "
           >
             <div className="flex items-center justify-between">
               <Profile />

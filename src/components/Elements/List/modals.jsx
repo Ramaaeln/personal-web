@@ -17,6 +17,16 @@ const ListModals = () =>{
             About
         </ListStyle>
 
+        <ListStyle 
+        href="/skills" 
+        className="ri-stack-line"
+        classname="hover:bg-gray-900 rounded  p-1  
+        xl:hidden md:hidden sm:hidden inline
+        "
+        >
+        Skills
+        </ListStyle>
+
         <ListStyle
         classname="hover:bg-gray-900 p-1 rounded" 
         href="/certificate" 

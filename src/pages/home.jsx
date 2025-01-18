@@ -3,7 +3,7 @@ import HomeLayouts from "../components/Layouts/HomeLayouts";
 
 const HomePage = () =>{
     return(
-    <div className="bg-black  h-full pb-10 text-white" >
+    <div className="bg-black  h-full pb-24 text-white" >
       <HeaderLayouts/>
       <HomeLayouts/>
     </div>

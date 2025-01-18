@@ -9,7 +9,7 @@ const dataupdates = [
     },
     {
         link:'/certificate',
-        update:'certificate/course-talenthub',
+        update:'certificate/talenthub',
         tanggal:'Dec 13, 2025',
     },
 ]
@@ -31,7 +31,9 @@ const UpdatesModals = ()=>{
                 <small>
                 <Link to={data.link}>{data.update}</Link>
                 </small>
-                <small className="inset-y-fit right-4 absolute">
+                <small className="inset-y-fit right-4 absolute
+                xl:inline md:inline sm:inline hidden
+                ">
                     {data.tanggal}
                 </small>
                 </div> 

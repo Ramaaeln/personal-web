@@ -35,7 +35,9 @@ const HomeLayouts = () =>{
 
         <div className="mt-7">
             <span>Activity</span>
-            <div className="justify-items-center">
+            <div className="justify-items-center 
+            xl:ml-0 md:ml-0 sm:ml-0 ml-12
+            ">
             <Activity/>
             </div>
         </div>                

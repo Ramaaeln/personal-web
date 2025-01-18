@@ -4,18 +4,31 @@ import meImage from '../assets/me.jpg'
 
 const AboutPage = () =>{
     return(
-        <div className="text-white bg-black h-screen">
+        <div className="text-white bg-black h-screen pb-20
+        ">
             <HeaderLayouts/>
             
             <div 
-            className="flex mx-96  
-            justify-center   mt-20">
+            className="grid   bg-black 
+            justify-center justify-items-center    mt-20
+            xl:w-fit xl:ml-12 xl:h-fit xl:mr-12 xl:flex
+            md:w-fit md:ml-12 md:h-fit  md:mr-12 md:grid md:justify-items-center
+            sm:w-fit sm:h-fit sm:ml-5 sm:mr-5  sm:grid sm:justify-items-center
+            ">
                 <ImageURL
                 src={meImage}
-                className="w-64 rounded-xl"
+                className="w-64 h-fit rounded-xl 
+                xl:w-80 xl:h-1/2
+                md:w-72 md:h-fit
+                sm:w-64 sm:h-fit
+                "
                 />
 
-                <p className="ml-7 text-justify p-3">
+                <p className=" text-justify p-3 mx-10
+                xl:mr-80
+                md:mx-12
+                sm:mx-10
+                ">
                 Hi, I`m 
                 <span className="text-yellow-300"> Abdullah Ramadan Elansary </span>  
                  u can call me <span className="text-yellow-300">Rama</span>, 
